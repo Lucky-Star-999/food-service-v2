@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <main th:fragment="main-home">
+        <!-- BANNER -->
+        <div th:replace="fragments/banner :: banner"></div>
+
+        <!-- Your main code here -->
+        <!-- PRODUCT -->
+        <div th:replace="fragments/product-home :: product-home"></div>
+
+        <!-- TESTIMONIALS, CTA & SERVICE -->
+        <div th:replace="fragments/testimonial :: testimonial"></div>
+    </main>
+
+</body>
+
+</html>
