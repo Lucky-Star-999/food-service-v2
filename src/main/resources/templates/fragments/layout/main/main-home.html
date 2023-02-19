@@ -9,14 +9,14 @@
 
     <main th:fragment="main-home">
         <!-- BANNER -->
-        <div th:replace="fragments/banner :: banner"></div>
+        <div th:replace="fragments/layout/banner :: banner"></div>
 
         <!-- Your main code here -->
         <!-- PRODUCT -->
-        <div th:replace="fragments/product-home :: product-home"></div>
+        <div th:replace="fragments/layout/product-home :: product-home"></div>
 
         <!-- TESTIMONIALS, CTA & SERVICE -->
-        <div th:replace="fragments/testimonial :: testimonial"></div>
+        <div th:replace="fragments/layout/testimonial :: testimonial"></div>
     </main>
 
 </body>
